@@ -83,10 +83,10 @@ body{
     color: #D9D9D9;
 }
 
-.contact{
+.button-redes{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #E8F1F2;
     box-shadow: 1px 0px 20px 0px #000000;
     text-shadow: none;
@@ -95,11 +95,21 @@ body{
     font-size: 25px;
     padding: 10px;
     width: 200px;
-    border-radius: 20px;
+    border: 3px solid #0CB1F2;
+    border-radius: 10px;
+    margin: 5px;
 }
 
-.contact:hover{
-    background-color: #006494;
+.button-redes:hover{
+    border: 3px solid #202022;
+}
+
+.links-btn {
+    display: flex;
+}
+
+.links-btn svg{
+    width: 35px;
 }
 
 .img{
@@ -107,7 +117,7 @@ body{
     height: 400px;
 }
 
-#sobre {
+#about {
     background-color: #13293D;
     color: #E8F1F2;
     margin: auto;
@@ -126,29 +136,11 @@ body{
     margin-bottom: 20px;
     text-shadow: 3px 2px 0px #000000;
     font-size: 40px;
-    width: 300px;
     position: relative;
     z-index: 1;
 }
 
-.templete2 {
-    padding-top: 10px;
-    color: #E8F1F2;
-    text-shadow: 3px 2px 0px #000000;
-    font-size: 40px;
-    text-align: center;
-}
-
-.templete3 {
-    color: #E8F1F2;
-    text-shadow: 3px 2px 0px #000000;
-    position: relative;
-    z-index: 1;
-    width: 300px;
-    margin: auto;
-}
-
-.sobre-mim{
+.about-me{
     text-align: justify;
     font-size: 20px;
     display: flex;
@@ -167,7 +159,7 @@ body{
 
 #projetos {
     width: 100%;
-    height: 600px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -185,7 +177,7 @@ body{
 
 .navigation {
     display: flex;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 .bar{
@@ -233,16 +225,11 @@ body{
     text-shadow: 3px 2px 0px #000000;
 }
 
-.img-btn {
-    display: flex;
-    align-items: center;
-}
-
 .box img {
     width: 500px;
 }
 
-.btn-location {
+.btn-localization {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -267,16 +254,15 @@ body{
     border: 2px solid #0CB1F2;
 }
 
-.btn-location svg {
+.btn-localization svg {
     width: 30px;
 }
 
 .project-description {
     background-color: #e8f1f2e3;
     color: #000000;
-    bottom: 0;
     width: 100%;
-    height: 100%;
+    height: 180px;
     text-align: justify;
     display: flex;
     flex-direction: column;
@@ -291,6 +277,10 @@ body{
 
 .no-project {
     text-align: center;
+}
+
+.no-project-links {
+    display: none;
 }
 
 #slide1:checked ~ .frist{
@@ -313,58 +303,79 @@ body{
     margin-left: -80%;
 }
 
-
-
-#competencias {
-    background-color: #13293D;
+#skills {
     width: 100%;
-    height: 1000px;
-    display: flex;
-    flex-direction: column;
-}
-
-.tec-logos{
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    bottom: 90px;
-}
-
-.element-skills{
-    display: flex;
-    margin: auto;
-    position: relative;
-    bottom: 150px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.box-skills {
-    background-color: #0CB1F2;
-    box-shadow:  18px 13px 30px 0px #000000;
-    margin: 20px;
-    width: 60%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
-
+    align-items: center;
 }
 
-.title-container{
-    background-color: #13293D;
-    text-shadow: 3px 2px 0px #000000;
-    color: #E8F1F2;
-    border-bottom-right-radius: 100px;
+#skills h2 {
+    color: #0CB1F2;
+}
+
+.skills-group {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#skills-details {
+    border: 2px solid #0CB1F2;
+    color: #0CB1F2;
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+    height: 240px;
+}
+
+.title-skill {
+    font-size: 30px;
     text-align: center;
-    width: 200px;
-    height: 80px;
 }
 
-.list {
-    font-size: 17px;
-    color: #202022;
+#tech-skill {
+    font-size: 25px;
+    text-align: center;
+    transition: 1s;
+}
+
+#skill-description {
+    text-align: center;
+}
+
+.element-skills {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    max-width: 500px;
+}
+
+.svgs-logos {
+    border: 2px solid #0CB1F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.svgs-logos:hover {
+    border: 2px solid #D9D9D9;
+}
+
+ #skills svg {
+    width: 70px;
+    height: 70px;
 }
 
 .download-cv{
@@ -379,10 +390,9 @@ body{
     font-size: 20px;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
-    bottom: 100px;
     width: 80%;
     height: 100%;
+    margin-bottom: 50px
 }
 
 .button {
@@ -414,7 +424,7 @@ footer{
     height: 100%;
     bottom: 0;
     color: #202022;
-    background-color: #0CB1F2;
+    background-color: #E8F1F2;
     display: flex;
     flex-direction: column;
     align-items: center;
