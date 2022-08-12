@@ -17,6 +17,7 @@ body{
     justify-content: space-between;
     width: 100%;
     position: fixed;
+    top: 0;
     height: 80px;
 }
 .name {
@@ -659,14 +660,16 @@ footer{
 @media only screen and (max-width: 400px) {
 
     #container {
-        background-color: #20202200;
+        background-color: #202022a1;
+        height: 50px;
+        align-items: center;
     }
     .info {
         font-size: 12px;
     }
 
     .name {
-       display: none;
+       font-size: 14px;
     }
 
     #intro {
