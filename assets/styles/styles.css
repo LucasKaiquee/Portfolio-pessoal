@@ -9,7 +9,7 @@ body{
     color: #E8F1F2;
 }
 
-#container {
+header {
     background-color: #20202284;
     color: #0CB1F2; 
     display: flex;
@@ -63,7 +63,7 @@ body{
     height: 200px;
 }
 
-.header {
+.container {
     color: #0CB1F2;
     text-shadow: 3px 2px 0px #000000;
 }
@@ -143,7 +143,7 @@ body{
     border: 2px solid #0CB1F2;
 }
 
-.texto {
+.my-story {
     text-align: justify;
     width: 40%;
 }
@@ -244,6 +244,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: justify;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -450,7 +451,7 @@ footer{
 }
 
 @media only screen and (max-width: 768px) {
-    #container {
+    header {
         align-items: center;
     }
     
@@ -483,7 +484,7 @@ footer{
     }
 
 
-    .texto {
+    .my-story {
         width: 95%;
         font-size: 15px;
     }
@@ -535,7 +536,7 @@ footer{
 }
 
 @media only screen and (max-width: 600px) {
-    #container {
+    header {
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
@@ -595,7 +596,7 @@ footer{
         width: 150px;
     }
     
-    .texto {
+    .my-story {
         width: 95%;
         font-size: 12px;
     }
@@ -659,7 +660,7 @@ footer{
 
 @media only screen and (max-width: 400px) {
 
-    #container {
+    header {
         background-color: #202022a1;
         height: 50px;
         align-items: center;
