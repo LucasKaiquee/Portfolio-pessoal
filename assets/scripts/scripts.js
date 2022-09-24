@@ -22,6 +22,15 @@ function detailsJs() {
     description.innerHTML = "Considero que tenho um conhecimento médio."
 }
 
+
+function detailsTs() {
+    let title = document.getElementById("tech-skill");
+    let description = document.getElementById("skill-description");
+
+    title.innerHTML = "TypeScript"  
+    description.innerHTML = "Comecei os estudos recentemente, ainda tenho muito a evoluir."
+}
+
 function detailsReact() {
     let title = document.getElementById("tech-skill");
     let description = document.getElementById("skill-description");
