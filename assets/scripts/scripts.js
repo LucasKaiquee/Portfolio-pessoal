@@ -3,7 +3,7 @@ function detailsHtml() {
     let description = document.getElementById("skill-description");
 
     title.innerHTML = "HTML"  
-    description.innerHTML = "Considero que tenho um bom conhecimento."
+    description.innerHTML = "Possuo uma boa experiência, uso nos meus projetos pessoais"
 }
 
 function detailsCss() {
@@ -11,7 +11,7 @@ function detailsCss() {
     let description = document.getElementById("skill-description");
 
     title.innerHTML = "CSS"  
-    description.innerHTML = "Considero que tenho um conhecimento médio."
+    description.innerHTML = "Possuo uma boa experiência, uso nos meus projetos pessoais"
 }
 
 function detailsJs() {
@@ -19,7 +19,7 @@ function detailsJs() {
     let description = document.getElementById("skill-description");
 
     title.innerHTML = "JavaScript"  
-    description.innerHTML = "Considero que tenho um conhecimento médio."
+    description.innerHTML = "Possuo uma boa experiência, uso nos meus projetos pessoais"
 }
 
 
@@ -28,7 +28,7 @@ function detailsTs() {
     let description = document.getElementById("skill-description");
 
     title.innerHTML = "TypeScript"  
-    description.innerHTML = "Comecei os estudos recentemente, ainda tenho muito a evoluir."
+    description.innerHTML = "Comecei os estudos recentemente"
 }
 
 function detailsReact() {
@@ -36,7 +36,7 @@ function detailsReact() {
     let description = document.getElementById("skill-description");
 
     title.innerHTML = "React Js"  
-    description.innerHTML = "Comecei os estudos recentemente, ainda tenho muito a evoluir."
+    description.innerHTML = "Comecei os estudos recentemente"
 }
 
 function detailsNode() {
@@ -44,7 +44,7 @@ function detailsNode() {
     let description = document.getElementById("skill-description");
 
     title.innerHTML = "Node Js"  
-    description.innerHTML = "Comecei os estudos recentemente, ainda tenho muito a evoluir."
+    description.innerHTML = "Comecei os estudos recentemente"
 }
 
 function detailsGit() {
@@ -52,7 +52,7 @@ function detailsGit() {
     let description = document.getElementById("skill-description");
 
     title.innerHTML = "Git"  
-    description.innerHTML = "Considero que tenho um conhecimento médio"
+    description.innerHTML = "Possuo uma boa experiência, uso nos meus projetos pessoais"
 }
 
 function detailsGitHub() {
@@ -60,7 +60,7 @@ function detailsGitHub() {
     let description = document.getElementById("skill-description");
 
     title.innerHTML = "GitHub"  
-    description.innerHTML = "Considero que tenho um conhecimento médio."
+    description.innerHTML = "Possuo uma boa experiência, uso para guardar meus projetos pessoais"
 }
 
 
