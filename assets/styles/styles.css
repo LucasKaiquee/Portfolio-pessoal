@@ -163,6 +163,8 @@ header {
 
 #skill-description {
     text-align: center;
+    max-width: 200px;
+    padding: 5px;
 }
 
 .element-skills {
@@ -192,6 +194,12 @@ header {
  #skills svg {
     width: 50px;
     height: 50px;
+}
+
+#skills svg:hover {
+    width: 60px;
+    height: 60px;
+    transition: 0.3s;
 }
 
 .soft-skills {
@@ -432,15 +440,24 @@ footer{
         font-size: 20px;
     }
 
-    #skills svg{
+    .element-skills {
+        max-width: 200px;
+    }
+    #skills svg {
         width: 30px;
     }
-    
+
     .svgs-logos {
-        width: 50px;
-        height: 50px;
+        width: 35px;
+        height: 35px;
     }
 
+    #skills svg:hover {
+        width: 32px;
+        height: 32px;
+        transition: 0.3s;
+    }
+    
 
     .content {
         width: 600px;
