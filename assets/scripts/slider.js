@@ -1,1 +1,0 @@
-const slide = document.querySelectorAll('.slide');

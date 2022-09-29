@@ -9,6 +9,7 @@
     <link rel="author" href="">
     <link rel="icon" href="./assets/imgs/programmer.png">
     <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="stylesheet" href="./assets/styles/planet.css">
 </head>
 <body>
     <header>
@@ -84,7 +85,7 @@
                 <img src="./assets/imgs/Foto.jpeg" alt="Lucas Kaique" class="photo">
             </div>  
             <div class="my-story">
-                    <p>Sou do interior do Ceará, tenho 21 anos. Antes de decidir que queria me tornar desenvolvedor eu cursava engenharia mecânica, optei por cursar engenharia após concluir o ensino médio em 2018, onde fiz integrado com o curso de técnico em mecânica industrial. Ao longo da faculdade percebi que não fiz a melhor escolha para minha carreira profissional, pois descobri que não tinha uma afinidade tão grande com a mecânica quanto tenho pela programação. Por esse motivo, tomar a decisão de sair da faculdade de engenharia foi uma virada de chave na minha cabeça, onde pude perceber a minha aptidão por estudar programação.<p> 
+                    <p>Olá, me chamo Lucas, tenho 21 anos e moro no interior do Ceará. Decidi me tornar desenvolvedor durante a faculdade de engenharia mecânica, eu não estava feliz no curso, não me imaginava um engenheiro, estava cada vez mais desmotivado para continuar com o curso. Desde cedo na faculdade, eu ouvia que a programação era o futuro, quando decidi pesquisar sobre eu não tive dúvidas que aquilo poderia ser o que eu estava procurando, então tomei uma decisão, sair da faculdade de engenharia e focar meu tempo em aprender programação. Essa foi a melhor decisão que eu tomei para minha saúde mental, me livrei daquele sentimento de estar perdendo meu tempo em algo que não me imaginava fazendo, foi um pouco difícil no começo porque sempre fica a dúvida se fiz a escolha certa, mas com o tempo percebi que sim, essa foi a melhor escolha que poderia tomar. Hoje eu tenho prazer em estudar e ver os códigos funcionando por mais simples que sejam, isso me motiva a continuar evoluindo e buscar sempre aprender algo novo todos os dias.<p> 
             </div>
         </div>
     </article>
@@ -136,7 +137,7 @@
         </div>
         <h2>Objetivo profissional</h2>
         <div class="soft-skills">
-            <p>Gosto muito de tecnologia, comecei a poucos meses a estudar programação, me apaixonei pela a área e não pretendo parar de estudar, vou sempre buscar evoluir e me capacitar cada vez mais. Busco minha primeiro oportunidade como desenvolvedor Front-End Jr. Sou organizado, tenho um bom raciocínio lógico e uma boa capacidade para resolver problemas, trabalho bem em equipe e sei me comuinicar com clareza.</p>
+            <p>Meu objetivo é me tornar o melhor desenvolvedor Front-End que eu puder ser, e para isso sigo fazendo projetos como esse portfólio, estou buscando minha primeira oportunidade na área como Júnior para aprender e evoluir cada vez mais. Sou organizado, tenho um bom raciocínio lógico e uma boa capacidade para resolver problemas, trabalho bem em equipe e sei me comunicar com clareza</p>
             
         </div>
         <a href="./assets/download/Currículo.pdf" dowload="" class="button-redes" target="_blank">Currículo</a>
@@ -149,7 +150,7 @@
                 <h1 class="title">Sistema de Estacionamento</h1>
                 <img src="./assets/imgs/sis-estacionamento.png" alt="Imagem da tela do projeto"> 
                 <div class="project-description">
-                            <p class="text">Projeto desenvolvido em um bootcamp na plataforma da Digital Inavation One. Usando TypeScript, esse foi meu primeiro contato com essa tecnologia.</p>
+                            <p class="text">Nesse projeto usei pela primeira vez o TypeScript, para validação dos dados com maior praticidade, além de usar o Localstorage para armazenar as entradas no banco de dados local, e mesmo ao atualizar a página os dados ficarem disponíveis para a visualização do usuário.</p>
                             <div class="btn-localization">
                                 <a href="https://lucaskaiquee.github.io/Sistema-de-Estacionamento/" class="btn" target="_blank">Visitar</a>
                                 <a href="https://github.com/LucasKaiquee/Sistema-de-Estacionamento.git" class="btn" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
@@ -183,7 +184,7 @@
                 <h1 class="title">Flex Turismo</h1>
                 <img src="./assets/imgs/landingpage.png" alt="Imagem da tela do projeto"> 
                 <div class="project-description">
-                            <p class="text">Projeto desenvolvido em um bootcamp na plataforma da Digital Inavation One. Essa landing page foi feita para praticar os conceitos de Flexbox e responsividade no CSS.</p>
+                            <p class="text">Uma Landing Page de uma agencia de turismo fictícia, desenvolvida para praticar conceitos de FlexBox no CSS, e responsividade usando Media queries para o site se ajustar a diferentes tamanhos de telas.</p>
                             <div class="btn-localization">
                                 <a href="https://lucaskaiquee.github.io/landing-page-flexbox/" class="btn" target="_blank">Visitar</a>
                                 <a href="https://github.com/LucasKaiquee/landing-page-flexbox.git" class="btn" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
@@ -294,16 +295,16 @@
             </div>
 
             <form action="https://api.staticforms.xyz/submit" method="post" class="contact-form" >
-                <h2>Deixe sua menssagem</h2>
+                <h2 id="confirmation">Deixe sua menssagem</h2>
                 <!-- Replace with accesKey sent to your email -->
                 <input type="hidden" name="accessKey" value="40e3e3ea-95ae-4906-a195-83b1be605ee3"> <!-- Required -->
                 <input type="hidden" name="redirectTo" value="https://lucaskaiquee.github.io/Potifolio-pessoal/#contacts">
-                <input type="text" name="name" placeholder="Nome"> <!-- Optional -->
-                <input type="email" name="email" placeholder="Email">
+                <input type="text" name="name" placeholder="Nome" required id="name-input"> <!-- Optional -->
+                <input type="email" name="email" placeholder="Email" required id="email-input">
                 <input type="text" name="subject" placeholder="Assunto"> <!-- Optional -->
-                <textarea name="message"  rows="10" cols="33"placeholder="Digite sua menssagem"></textarea> <!-- Optional -->
+                <textarea name="message"  rows="10" cols="33"placeholder="Digite sua menssagem" required id="messege-input"></textarea> <!-- Optional -->
                 <!-- If you want replyTo to be set to specific email -->
-                <input type="submit" value="Enviar" id="button-contact" />
+                <input type="submit" value="Enviar" id="button-contact" onclick="contato()"/>
             </form>
         </div>
        
@@ -316,6 +317,6 @@
 
     <script src="./assets/scripts/scripts.js"></script>
     <script src="./assets/scripts/animation.js"></script>
-    <script src="./assets/scripts/slider.js"></script>
+    <script src="./assets/scripts/alert.js"></script>
 </body>
 </html>
