@@ -11,3 +11,5 @@
 ## Deploy 
 
 O projeto está no GitHub pages. [Visualizar](https://lucaskaiquee.github.io/Potifolio-pessoal/)
+
+![2022-10-03 18-30-33](https://user-images.githubusercontent.com/85175643/193688404-bd98656c-f747-4569-b52b-07ab021e1708.gif)
