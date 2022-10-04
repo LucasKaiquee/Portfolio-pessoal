@@ -1,4 +1,4 @@
-# Potifólio Pessoal
+# Portfólio Pessoal
 
 ## Stack Usada 
 <div align="left">
