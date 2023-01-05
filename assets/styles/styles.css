@@ -262,14 +262,6 @@ header {
     justify-content: space-evenly;
 }
 
-.no-project {
-    text-align: center;
-}
-
-.no-project a {
-    display: none;
-}
-
 .btn-localization {
     display: flex;
     align-items: center;
